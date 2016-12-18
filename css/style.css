@@ -1,0 +1,261 @@
+/*================= ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+@import "flaticon.css";
+@import "font.css";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+
+.clearfix{
+    clear: both;
+}
+.container{
+   width: 1000px;
+    margin: 0 auto;
+}
+
+.containerInsade{
+    margin: 0 auto;
+    width: 940px;
+    overflow: hidden;
+    position: relative;
+}
+
+body{
+    background-image: url("../images/body1.png");
+    border-top: 5px solid #d7a229;
+    box-sizing: border-box;
+}
+
+/*================= CLOSE ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+
+.head-wraper{
+    background-image: url("../images/homeWrap2.png");
+}
+
+/*================= HEADER ====================================*/
+
+.logo{
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.head-contact{
+    float: right;
+    color: white;
+    margin-top: 40px;
+}
+
+.head-contact a{
+    color: white;
+}
+
+.head-icon  a{
+    font-size: 0;
+    float: right;
+    margin: 10px 3px 0;
+}
+
+/*================= head-menu ====================================*/
+
+.head-menu{
+    margin-top: 40px;
+    background-color: #3d4143;
+    display: inline-block;
+}
+.head-menu li{
+    display: inline-block;
+
+}
+.head-menu li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 12px;
+    display: block;
+    padding: 16px 18px;
+    border: 1px solid #494d50;
+    border-right: 0;
+    border-radius: 2px;
+    font-family: 'DroidSerifBold', Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+
+}
+
+.head-menu li a:hover{
+    cursor: pointer;
+    background-color: rgba(48, 51, 52, 0.3);
+    border-bottom: 4px solid #d29624;
+    box-sizing: border-box;
+}
+
+.menu-form{
+    display: inline-block;
+    margin-left: 5px;
+}
+.search{
+    border-radius: 15px;
+    padding: 5px;
+    width: 70%;
+}
+
+.searchImg{
+    margin-left: 5px;
+}
+
+
+/*================= CLOSE head-menu ====================================*/
+/*================= CLOSE HEADER ====================================*/
+
+
+/*================= slider ====================================*/
+.slider{
+    background-image: url("../images/slide.png");
+    position: relative;
+    padding-top: 80px;
+    border-bottom: 5px solid #d7a229;
+}
+
+.prev{
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+}
+
+.next{
+    position: absolute;
+    bottom: 50%;
+    right: 0;
+}
+.slider-text{
+    width: 490px;
+    margin-left: 55px;
+}
+
+.slider-text h2{
+    font-size: 36px;
+    font-family: 'DroidSerifRegular', Helvetica, Arial, sans-serif;
+    margin-bottom: 30px;
+
+}
+.slider-text p{
+    margin-bottom: 30px;
+}
+.multi-purpose{
+    color: #d7a229;
+    font-family: 'PTSansRegular', Helvetica, Arial, sans-serif;
+    font-size: 22px;
+}
+
+.bottom{
+    text-transform: uppercase;
+    width: 170px;
+    margin-top: 40px;
+    font-family: 'DroidSerifBold', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    padding: 20px 30px;
+    background: -moz-linear-gradient(top, #fbd277 30%, #d8a42c 100%);
+    text-align: center;
+    border-radius: 7px;
+    box-sizing: border-box;
+    margin: 0 0 55px 55px;
+
+}
+
+.slider-circle{
+    text-align: center;
+    position: absolute;
+    bottom: 15px;
+    right: 40%;
+}
+
+.circ{
+    display: inline-block;
+    margin: 0 1.5px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid #bebdc4;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.circ:hover{
+    border: 5px solid #bebdc4;
+}
+/*================= CLOSE slider ====================================*/
+
+/*================= Extended ====================================*/
+.extended{
+    background-image: url("../images/2--Home.png");
+    padding: 50px 0;
+}
+
+.extended h2{
+    font-family: 'DroidSerifRegular', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.extended p{
+    margin-top: 30px;
+    font-family: 'PTSansRegular', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+}
+/*================= CLOSE Extended ====================================*/
+
+/*================= flexibility ====================================*/
+.flexibility{
+    background-color: white;
+    font-size: 0;
+    padding: 60px 0;
+}
+.ee{
+    width: 25%;
+    display: inline-block;
+}
+
+.ee h3{
+    display: block;
+    font-size: 16px;
+    font-family: 'DroidSerifRegular', Helvetica, Arial, sans-serif;
+}
+
+.ee h3 img{
+}
+
+.ee p{
+    font-size: 13px;
+    font-family: 'PTSansRegular', Helvetica, Arial, sans-serif;
+
+}
+/*================= CLOSE flexibility ====================================*/
+
+
+/*================= ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+.latest{
+    background-color: white;
+}
+
+.driver{
+
+}
+/*================= CLOSE ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+
+
+/*================= ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+/*================= CLOSE ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+
+
+/*================= ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+/*================= CLOSE ГЛОБАЛЬНЫЕ НАСТРОЙКИ ====================================*/
+
+
+
+

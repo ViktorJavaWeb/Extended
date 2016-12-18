@@ -1,0 +1,22 @@
+@font-face {
+    font-family: "DroidSerifBold";
+    src: url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.eot");
+    src: url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.woff") format("woff"),
+    url("../fonts/DroidSerif/DroidSerifBold/DroidSerifBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+/*font-family PTSansRegular;*/
+@font-face {
+    font-family: 'PTSansRegular';
+    src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot");
+    src: url("../fonts/PTSans/PTSansRegular/PTSansRegular.eot#iefix")format("embedded-opentype"),
+    url("../fonts/PTSans/PTSansRegular/PTSansRegular.woff") format("woff"),
+    url("../fonts/PTSans/PTSansRegular/PTSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}

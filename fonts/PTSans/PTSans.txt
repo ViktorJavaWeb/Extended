@@ -1,0 +1,33 @@
+  Код для подключения шрифта в cssstylename.css 
+
+ font-family PTSansRegular; 
+@font-face {
+    font-family PTSansRegular;
+    src url(..fontsPTSansRegularPTSansRegular.eot);
+    src url(..fontsPTSansRegularPTSansRegular.eot#iefix)format(embedded-opentype),
+    url(..fontsPTSansRegularPTSansRegular.woff) format(woff),
+    url(..fontsPTSansRegularPTSansRegular.ttf) format(truetype);
+    font-style normal;
+    font-weight normal;
+}
+ font-family PTSansItalic; 
+@font-face {
+    font-family PTSansItalic;
+    src url(..fontsPTSansItalicPTSansItalic.eot);
+    src url(..fontsPTSansItalicPTSansItalic.eot#iefix)format(embedded-opentype),
+    url(..fontsPTSansItalicPTSansItalic.woff) format(woff),
+    url(..fontsPTSansItalicPTSansItalic.ttf) format(truetype);
+    font-style normal;
+    font-weight normal;
+}
+ font-family PTSansBold; 
+@font-face {
+    font-family PTSansBold;
+    src url(..fontsPTSansBoldPTSansBold.eot);
+    src url(..fontsPTSansBoldPTSansBold.eot#iefix)format(embedded-opentype),
+    url(..fontsPTSansBoldPTSansBold.woff) format(woff),
+    url(..fontsPTSansBoldPTSansBold.ttf) format(truetype);
+    font-style normal;
+    font-weight normal;
+}
+
